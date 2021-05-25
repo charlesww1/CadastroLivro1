@@ -1,0 +1,134 @@
+header {
+    text-align: center;
+    font-size: 2rem;
+    /*background-color: #f2f2f2;*/
+    background: linear-gradient(90deg, rgba(54,18,5,1) 4%, rgba(99,39,17,1) 15%, rgba(164,70,33,1) 38%, rgba(142,71,42,1) 77%, rgba(126,71,48,1) 100%), rgb(77, 77, 129);
+    color: #f2f2f2;
+  }
+  
+  .titulo {
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+    /*padding-left: 43.5rem;*/
+    padding-top: 1rem;
+    color: #f2f2f2;
+  }
+
+  .white {
+    color: #f2f2f2;
+  }
+
+  .logo {
+    width: 20rem;
+    position: absolute;
+    display: flex;
+    padding-top: 5px;
+  }
+  
+  /*
+  h2 {
+    text-align: center;
+    color: #667;
+    margin-top: 1rem;
+  }
+  */
+  
+  .form-add { 
+    text-align: center;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    /*background: linear-gradient(90deg, rgba(54,18,5,1) 4%, rgba(99,39,17,1) 15%, rgba(164,70,33,1) 38%, rgba(142,71,42,1) 77%, rgba(126,71,48,1) 100%), rgb(77, 77, 129);*/
+    padding: 20px;
+    margin: 0% 30% 0% 30%;
+  }
+  
+  .formlabel {
+    font-family:'Franklin Gothic Medium';
+  }
+
+  .input-label {
+    width: 100%;
+  }
+
+  .btn-light{
+    background: linear-gradient(90deg, rgba(54,18,5,1) 4%, rgba(99,39,17,1) 15%, rgba(164,70,33,1) 38%, rgba(142,71,42,1) 77%, rgba(126,71,48,1) 100%), rgb(77, 77, 129);
+    color: #f2f2f2;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Franklin Gothic Medium';
+    font-size: 1.5rem;
+    color: #0c0c0c;
+  }
+  
+  button {
+    margin-top: 0.8rem;
+  }
+
+  .navg {
+    padding: 1.5rem;
+    font-family:'Franklin Gothic Medium';
+    color: #f2f2f2;
+    font-size: 30px;
+  }
+  
+  .navg:hover{
+    color: #0c0c0c;
+  }
+  
+  .traço {
+    border-right: solid 3px;
+    color: #f2f2f2;
+  }
+
+  .traço:hover {
+    color: #0c0c0c;
+  }
+
+  .img-site{
+    background-image: url(./imagem.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 230px;
+    padding-bottom: 258px;
+  }
+
+  .book{
+    text-align: center;
+    align-items: center;
+    margin: 0% 30% 0% 30%;
+    background: linear-gradient(90deg, rgba(54,18,5,1) 4%, rgba(99,39,17,1) 15%, rgba(164,70,33,1) 38%, rgba(142,71,42,1) 77%, rgba(126,71,48,1) 100%), rgb(77, 77, 129);
+    color: #f2f2f2;
+    border-radius: 15px;
+    margin-top: 2rem;
+    display: flex;
+    min-width: 300px;
+  }
+
+  .book-title{
+    font-size: 2rem;
+    font-family:'Franklin Gothic';
+    color: #f2f2f2;
+  }
+
+  .CardBook{
+    font-family:'Franklin Gothic';
+    color: #f2f2f2;
+  }
+
+  .lista-livro{
+    background-image: url(./imagem.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 1px;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+  }
